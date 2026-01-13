@@ -26,7 +26,7 @@ while num_lines_change > 0 :
         current_value = int(current_value)
         current_value = current_value + number_rotation
         if current_value > 99 :
-            current_value = current_value - 100
+            current_value = 100 - current_value
             print(current_value)
         else:
             print(current_value)
@@ -37,7 +37,7 @@ while num_lines_change > 0 :
         current_value = int(current_value)
         current_value = current_value + number_rotation
         if current_value < 0 :
-            current_value = 100 - current_value 
+            current_value = current_value - 100 
             print(current_value)
         else:
             print(current_value)
